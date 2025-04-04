@@ -1,71 +1,62 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://github.com/jonamae090',
+  title: 'JG.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Jonamae Gadong',
+  role: 'UI/UX Designer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am Jonamae Gadong, a passionate developer with a strong interest in coding, design, and modern UI/UX principles.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    github: 'https://github.com/jonamae090',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Portfolio Website',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A personal portfolio showcasing my skills, projects, and experiences as a BSIT student.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'React'],
+    sourceCode: 'https://github.com/roxannefama/portfolio',
+    livePreview: 'https://roxannefama.github.io/portfolio',
   },
   {
-    name: 'Project 2',
+    name: 'Student Attendance System',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A simple web-based attendance system that helps track student attendance using QR codes.',
+    stack: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
+    sourceCode: 'https://github.com/roxannefama/attendance-system',
+    livePreview: 'https://github.com/roxannefama/attendance-system',
   },
   {
-    name: 'Project 3',
+    name: 'To-Do List App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A lightweight to-do list application that helps users manage tasks efficiently.',
+    stack: ['React', 'Firebase', 'Tailwind CSS'],
+    sourceCode: 'https://github.com/roxannefama/todo-app',
+    livePreview: 'https://roxannefama.github.io/todo-app',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'PHP',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Bootstrap',
+  'Tailwind CSS',
+  'MySQL',
+  'Python',
+  'Git & GitHub',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'gadongjonamae06@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
